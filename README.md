@@ -21,7 +21,11 @@ gcc -O3 -o (executable filename) (filename).c -lm
 - '-03' - to ensure maximum optimization level
 - '-lm' - to link the math library
 
+Example: gcc -O3 -o lab01 CUNANAN_NS_code.c -lm
+
 ### Step 3: Running the program
 
 Run as follows:
 ./(<executable filename) (size of the n x n matrix)
+
+Example: ./lab01 100
